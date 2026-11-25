@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Madise ja TAK25 andmed</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Madise ja TAK25 andmed</h1>
+    <a href="/api/data">Vaata JSONit</a>
+    <h2>Sammud</h2>
+    <canvas id="steps" aria-label="sammud" role="img"></canvas>
+    <h2>Ekraaniminutid</h2>
+    <canvas id="screen" aria-label="screen" role="img"></canvas>
+    <h2>Kõigi sammud</h2>
+    <canvas id="all_steps" aria-label="screen" role="img"></canvas>
+    <h2>Kõigi minutid</h2>
+    <canvas id="all_minutes" aria-label="screen" role="img"></canvas>
+    <h2>Kõigi sammud</h2>
+    <canvas id="total_steps" aria-label="Total class steps by date" role="img"></canvas>
+    <h2>Keskmised sammud</h2>
+    <canvas id="mean_steps" aria-label="Mean steps per participant by date" role="img"></canvas>
+    <p id="error" role="alert"></p>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
