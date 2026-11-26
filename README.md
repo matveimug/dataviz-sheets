@@ -15,7 +15,7 @@ Append `/api/data` to the local address Vite prints (usually `http://127.0.0.1:5
 
 ## Lessons
 
-Each lesson is about 90 minutes. The charts share one API request per page load. The five core lessons build six charts. Lesson 5 offers bonus exercises on the median and mode.
+Lessons 1–5 take about 90 minutes each and build six charts that share one API request per page load. Lesson 5 offers bonus exercises on the median and mode. In Lesson 6, you’ll spend two to three 90-minute sessions investigating a question of your own.
 
 | Lesson | What you’ll do | Code along |
 | --- | --- | --- |
@@ -24,6 +24,7 @@ Each lesson is about 90 minutes. The charts share one API request per page load.
 | [3. Chart screen time](lessons/03-screen-time/README.md) | Add a screen-time line chart below the steps chart | [Walkthrough](lessons/03-screen-time/walkthrough.md) |
 | [4. Chart every participant](lessons/04-all-participants/README.md) | Add steps and screen-time comparisons using every configured tab | [Walkthrough](lessons/04-all-participants/walkthrough.md) |
 | [5. Calculate class totals and averages](lessons/05-class-summary/README.md) | Chart the daily total and mean steps per reporting participant | [Walkthrough](lessons/05-class-summary/walkthrough.md) |
+| [6. Independent data visualization project](lessons/06-independent-dataviz/README.md) | Use two related visualizations to answer your own question about the class data | Independent project |
 
 ## For the instructor
 
